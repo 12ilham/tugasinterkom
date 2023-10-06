@@ -1,0 +1,355 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ecf0f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-width: 706px;
+  margin: auto;
+  color: #ecf0f1;
+  background-color: rgb(48, 37, 37);
+}
+/* container login halaman utama */
+
+.container-login {
+  min-width: 706px;
+  height: 100vh;
+  background-color: #2c3e50;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.gambar-login {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container-login img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border-radius: 50%;
+  box-shadow: 3px 5px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container-login label {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.container-login input {
+  width: 300px;
+  height: 38px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 3px 5px 0px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: black;
+}
+
+.container-login .btn {
+  margin-top: 17px;
+  text-align: center;
+}
+
+.container-login button {
+  color: black;
+  padding: 0 50px;
+  font-size: 25px;
+  height: 35px;
+  border-radius: 15px;
+  font-weight: 500;
+  border: 1px solid black;
+  box-shadow: 3px 5px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* akhir container login */
+
+/* container navbar */
+
+.container-navbar {
+  height: 100vh;
+  background-color: #2c3e50;
+  background-image: url(gambar/tablet.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.container-navbar .Teknologi-exit a {
+  text-decoration: none;
+  position: fixed;
+  font-weight: 500;
+  top: 0;
+  left: 10px;
+  padding: 10px 50px;
+  background-color: rgb(34, 29, 29);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 3px 1px 1px rgba(250, 245, 245, 0.7);
+}
+
+.container-navbar h1 {
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 10px ;
+  box-shadow: 4px 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+.container-navbar .nav-li {
+  width: 400px;
+  height: 400px;
+  /* background-color: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.container-navbar .nav-li li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  border: 1px solid black;
+  padding: 20px 30px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: rgb(34, 29, 29);
+  box-shadow: 2px 3px 1px 1px rgba(250, 245, 245, 0.7);
+}
+
+.container-navbar .nav-li ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-navbar .nav-li button {
+  color: rgb(250, 243, 243);
+  font-size: 45px;
+  background-color: rgb(34, 29, 29);
+  border: none;
+  font-weight: 600;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.navbar-teknologi {
+  display: none;
+}
+
+.navbar-teknologi ul {
+  display: flex;
+}
+
+.navbar-teknologi ul li {
+  margin: 0 20px;
+  list-style-type: none;
+  background-color: rgb(34, 29, 29);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-teknologi ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* akhir navbar */
+
+.nav-gd ul {
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgb(24, 20, 20);
+  margin: auto;
+  justify-content: center;
+  /* margin: ; */
+  padding: 35px;
+  display: flex;
+}
+
+.nav-gd ul li {
+  list-style-type: none;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 7px 16px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.nav-gd ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+/* container gadjet */
+
+.container-gd {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #2c3e50;
+}
+
+.konten-gd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-gd .konten-gd p {
+  padding-left: 15px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.container-gd h1 {
+  text-align: center;
+}
+.container-gd .konten-gd {
+  display: flex;
+  margin-top: 10px;
+}
+.container-gd .satu {
+  padding: 10px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-gd .dua {
+  padding: 10px;
+}
+
+.container-gd .tiga {
+  padding: 10px;
+}
+
+.container-gd .empat {
+  padding: 10px;
+}
+.container-gd img {
+  width: 100%;
+  border-radius: 9px;
+  box-shadow: 3px 4px 4px 2px;
+}
+
+/* akhir teknologi */
+
+/* awal media sosial */
+
+/* .container-media {
+  height: 100vh;
+} */
+.navigasi-media {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  background-color: white;
+  /* height: 100vh; */
+  /* text-align: center; */
+  align-items: center;
+}
+
+.navigasi-media .nav-media {
+  text-align: center;
+  /* width: 30%; */
+}
+.navigasi-media .nav-media h1 {
+  color: black;
+  font-size: 50px;
+}
+
+.navigasi-media .nav-media i {
+  font-size: 300px;
+}
+
+.btn-media a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: rgb(233, 226, 226);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px 50px;
+  /* border: 3px solid black; */
+  border-bottom-right-radius: 20px;
+  font-weight: 700;
+  background-color: rgb(237, 4, 4);
+}
+/* akhir media sosial */
+
+/* responsive */
+@media screen and (min-width: 1100px) {
+
+  body {
+    min-width: 1100px;
+  }
+  .container-login {
+    flex-direction: row;
+  }
+
+  .container-login img {
+    width: 80%;
+  }
+
+
+
+  .konten-gd img {
+    width: 30%;
+  }
+  .konten-gd {
+    flex-direction: row;
+  }
+
+  .container-gd .konten-gd p {
+    text-align: left;
+  }
+
+  .container-gd h1 {
+    text-align: left;
+  }
+
+  .nav-gd ul {
+    justify-content: flex-end8;
+  }
+
+  .navigasi-media {
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .nav-media {
+    margin: 0 20px;
+  }
+
+  .container-navbar .Teknologi-exit a {
+    /* margin-right: auto; */
+  }
+}
